@@ -1,9 +1,11 @@
+var i = 0;
+
 
 function takeANumber(line, name){
-  
-  line.push(name);
-  return ("Welcome, " + name + ". You are number " + line.length + " in line.");
+  return ("Welcome! You are customer " + (i++) + ".") ;
 }
+
+
 
 function nowServing(katzDeliLine){
   if (katzDeliLine < 1){
