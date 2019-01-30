@@ -20,7 +20,7 @@ function currentLine(line, name){
     return "The line is currently empty.";
   }
     while (i < line.length) {
-    line.push(` `+ [i+1] + `.`+ deliLine[i]);
+    line.push(` `+ [i+1] + `.`+ line[i]);
     i++;
     }
 }
