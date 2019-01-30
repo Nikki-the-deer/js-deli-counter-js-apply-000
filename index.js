@@ -1,7 +1,7 @@
 var i = 0;
 
 
-function takeANumber(line, name){
+function takeANumber(line){
   return ("Welcome! You are customer " + (i++) + ".") ;
 }
 
@@ -12,9 +12,11 @@ function nowServing(katzDeliLine){
     return "There is nobody waiting to be served!";
   }
   else{
-    return "Currently serving " + katzDeliLine.shift() + ".";
+    return "Currently serving " + i + ".";
   }
 }
+
+
 
 // function currentLine(line, name){
 //   var i = 0;
