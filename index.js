@@ -1,18 +1,19 @@
-var i = 0;
+var i = 1;
 
 
 function takeANumber(line){
+  line.push(i);
   return ("Welcome! You are customer " + (i++) + ".") ;
 }
 
 
 
 function nowServing(katzDeliLine){
-  if (i < 1){
+  if (line.length < 1){
     return "There is nobody waiting to be served!";
   }
   else{
-    return "Currently serving " + i + ".";
+    return "Currently serving " + line.shift() + ".";
   }
 }
 
