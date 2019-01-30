@@ -19,7 +19,8 @@ function currentLine(line, name){
   if (line.length < 1){
     return "The line is currently empty.";
   }
-
-    
-    
+    while (i < deliLine.length) {
+    line.push(` `+ [i+1] + `.`+ deliLine[i]);
+    i++;
+    }
 }
