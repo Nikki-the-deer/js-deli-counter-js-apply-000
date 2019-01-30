@@ -19,7 +19,7 @@ function currentLine(line, name){
   if (line.length < 1){
     return "The line is currently empty.";
   }
-  
+
     
     
 }
