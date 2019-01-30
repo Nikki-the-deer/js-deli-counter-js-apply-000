@@ -21,6 +21,6 @@ function currentLine(line, name){
   }
   while (i < line.length) {
     line.push(` `+ [i+1] + `.`+ line[i]);
-    i++;
     }
+  i++
 }
